@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title>Vertical Text Align</title>
+  </head>
+  
+  <body>
+    <style>
+      table{
+        border-color: red;
+        width: 1100px;
+      }
+      
+      .baseline{
+        vertical-align: baseline;
+      }
+      
+      .middle{
+        vertical-align: middle;
+      }
+      
+      .bottom{
+        vertical-align: bottom;
+      }
+      
+      .top{
+        vertical-align: top;
+      }
+    </style>
+    
+    <table border="1px" cellspacing="0px" cellpadding="1px">
+      <tr>
+        <td class="baseline">baseline</td>
+        <td class="middle">middle</td>
+        <td class="bottom">bottom</td>
+        <td class="top">top</td>
+        <td>The vertical-align CSS property controls how the elements set next to each other. When this property applies to the table cells, then instead of affecting the cell itself, it affects the cell content. This property has multiple valid values: baseline, top, bottom, middle, text-top, text-bottom, sub, super and length(in px, cm, em, etc.). The sub and super values of this property are generally used for the subscript and superscript of text.
+        </td>
+      </tr>
+    </table>
+    
+    <h3>Use of super and sub values</h3>
+    <h5>Using super value: x<sup>2</sup>+ y<sup>2</sup> = r<sup>2</sup></h5>
+    <h5>Chemical formula of Water by using sub value: H<sub>2</sub>O</h5>
+  </body>
+</html>
